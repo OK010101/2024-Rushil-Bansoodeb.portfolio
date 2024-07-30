@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Design Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body class="portfolio-page">
+    <header>
+        <div class="herops">
+            <a href="#about" class="hero-button">Scroll Down</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">ABOUT ME</a></li>
+                <li><a href="gallery.html">PORTFOLIO</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="illutratortext">
+    <h1>Illustrator</h1>
+</div>
+    <div class="illustrator">
+            <img src="gallery/Coffeelogo4.jpg" alt="Coffeelogo1">
+            <img src="gallery/Coffeelogo2.jpg" alt="Coffeelogo2">
+            <img src="gallery/Coffeelogo3.jpg" alt="Coffeelogo3">
+            <img src="gallery/Coffeelogo1.jpg" alt="Coffeelogo4">
+            <img src="gallery/Coffeelogo5.jpg" alt="Coffeelogo5">
+    </div>
+
+ 
+    <div class="branding">
+        <h1>Branding</h1>
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1">
+                <img src="gallery/the melody coffee logo.png" alt="Gallery image 1" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2">
+                <img src="gallery/the melody coffee webbanner 2.png" alt="Gallery image 2" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3">
+                <img src="gallery/the melody coffee poster.png" alt="Gallery image 3" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+                <img src="gallery/the melody coffee van.png" alt="Gallery image 4" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+                <img src="gallery/the melody coffee brand.png" alt="Gallery image 5" class="gallery__img">
+            </figure>
+            
+        </div>
+    </div>
+
+
+    <div class="branding2">
+   <img src="gallery/branding 3.png" alt="branding2 mockup">
+   <img src="gallery/branding 2 img.png" alt="branding2 mockup">
+    </div>
+    
+    
+    <div class="logo">
+        <h1>Logos</h1>
+        <img src="gallery/logo color.png">
+        <img src="gallery/Screenshot 2024-06-21 at 3.14.50 PM.png">
+        <img src="gallery/wine round.png">
+    </div>
+
+    <div class="poster">
+        <h1>Posters</h1>
+    </div>
+
+    <div class="w3-content w3-display-container">
+        <img class="mySlides" src="gallery/postal cover-desn156.jpg" alt="Postal Cover Design">
+        <img class="mySlides" src="gallery/poster 1.jpg" alt="Poster 1">
+        <img class="mySlides" src="gallery/Poster 2.jpg" alt="Poster 2">
+        <img class="mySlides" src="gallery/Poster 3.jpg" alt="Poster 3">
+        <img class="mySlides" src="gallery/Poster 4.jpg" alt="Poster 4">
+        <img class="mySlides" src="gallery/Poster 5.jpg" alt="Poster 5">
+        <img class="mySlides" src="gallery/Poster 6.jpg" alt="Poster 6">
+        <img class="mySlides" src="gallery/Poster 7.jpg" alt="Poster 7">
+        <img class="mySlides" src="gallery/POSTER1.jpg" alt="Poster 1 Alternate">
+        <img class="mySlides" src="gallery/POSTER3.jpg" alt="Poster 3 Alternate">
+        <img class="mySlides" src="gallery/the poster.jpg" alt="The Poster">
+        <img class="mySlides" src="gallery/wine front cover.jpg" alt="Wine Front Cover">
+    </div>
+
+
+    <div class="adobefresco">
+        <h1> ADOBE FRESCO</h1>
+            <img src="gallery/MixMedia-Bansoodeb_Rushil.png">
+    </div>
+
+    <div class="loc">
+        <h1>LONDON CITY BRANDING</h1>
+        <div class="locimages">
+            <img src="gallery/tshirt-1.png" alt="T-Shirt Design 1">
+            <img src="gallery/tshirt2.png" alt="T-Shirt Design 2">
+            <img src="gallery/tshirt3.png" alt="T-Shirt Design 3">
+            <img src="gallery/WebSite WireFrame Layout.png" alt="Website Wireframe 1">
+            <img src="gallery/WebSite WireFrame Layout – 2.png" alt="Website Wireframe 2">
+        </div>
+        </div>
+
+
+        <div class="wine">
+            <h1>Wine City</h1>
+        </div>
+
+    <div class="winecity">
+        <img src="gallery/winecity front.png">
+        <img src="gallery/wine city back.png">
+    </div>
+
+    <section id="learn">
+        <h2>What Do I Think Being A Graphic Designer.</h2>
+        <p>Well, being a graphic designer means having the opportunity to express my creativity to the world. This allows me to work on a wide range of projects, from branding and advertising to web design and more. As a freelancer, I enjoy the flexibility of being my own boss and working with multiple clients. However, being a graphic designer can also be time-consuming and stressful, especially when dealing with clients who want projects completed on tight deadlines. Despite these challenges, I find the work rewarding and fulfilling.
+        </p>
+    </section>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 3000); // Change image every 2 seconds
+        }
+
+        
+        </script>
+
+    <footer>
+        <p>&copy; 2024 Graphic Design Portfolio by Rushil</p>
+    </footer>
+
+</body>
+</html>
