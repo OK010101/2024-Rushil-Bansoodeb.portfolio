@@ -342,8 +342,8 @@ body {
     background-image: url('gallery.heroimg.jpg'); /* Add your hero image path here */
     background-size: cover;
     background-position: center;
+    height: 100vh;
     display: flex;
-    height: 102vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
