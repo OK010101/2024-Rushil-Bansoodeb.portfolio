@@ -343,7 +343,7 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
-    height: 102vh;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center;
