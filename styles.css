@@ -21,6 +21,7 @@ header {
     background-size: cover;
     background-position: center;
     display:flex;
+    height:100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -339,7 +340,7 @@ body {
 }
 
 .herops {
-    background-image: url('gallery.heroimg.jpg'); /* Add your hero image path here */
+    background-image: url('gallery.heroimg,jpg'); /* Add your hero image path here */
     background-size: cover;
     background-position: center;
     height: 100vh;
