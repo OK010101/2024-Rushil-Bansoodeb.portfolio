@@ -25,6 +25,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding:10px;
     color: white;
     text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
